@@ -1,0 +1,161 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#hero-section {
+    height: 100vh;
+    background: #b3855d77;
+    display: grid;
+    place-items: center;
+}
+
+.heading h1 {
+    font-size: 4rem;
+    font-weight: 400 !important;
+    margin-bottom: 2rem;
+}
+
+.heading p {
+    font-size: 1.5rem !important;
+    margin-bottom: 1.5rem;
+}
+
+.dropdown_filter_btn {
+    font-size: 1.5rem;
+    background: #FEF6ED;
+    ;
+    border: 1px solid #b3855d77;
+    ;
+    padding: 20px 14rem 20px 20px;
+    border-radius: 0;
+    outline: none;
+}
+
+select.dropdown_filter_btn option {
+    background: rgba(255, 255, 255, 0.635);
+}
+
+.dropdown_filter_btn:hover {
+    background: #FEF6ED;
+    border: 1px solid #b3855d77;
+    ;
+}
+
+.dropdown-toggle::after {
+    margin-right: 2rem !important;
+}
+
+/* card design */
+.price {
+    color: #1e1e1e;
+    font-family: IncfileBold, sans-serif;
+    font-size: 40px;
+    font-weight: 500 !important;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.btn {
+    align-items: center;
+    background-color: #fd8550;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: IncfileBold;
+    font-size: 16px;
+    height: auto;
+    justify-content: center;
+    line-height: 24px;
+    padding: 14px 46px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s ease, color .3s ease, .3s ease;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.btn:after {
+    color: #fff;
+    font-family: incfile-icons;
+    font-size: 36px;
+    position: absolute;
+    right: 14px;
+}
+
+.fees {
+    margin-top: 32px;
+}
+
+.box,
+.price-box-highlight {
+    background-color: #fff;
+    font-family: IncfileBold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.benefits-list.highlight-including-items {
+    background: #FCFDFF;
+    box-shadow: 0px 24px 24px rgb(177 190 222 / 15%);
+    border-radius: 12px;
+    margin: 24px 0 !important;
+    padding: 16px 18px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.benefits-list.highlight-including-items li span:first-child {
+    width: 16px;
+    height: 15px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+li:not(:last-child) {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+li {
+    list-style: none !important;
+}
+
+li {
+    list-style: none !important
+}
+
+.box {
+    background-color: #fff;
+    font-family: IncfileBold;
+    font-size: 12px;
+    text-transform: uppercase;
+    box-shadow: 0 24px 32px 0 hsla(0, 0%, 93%, .5);
+    color: #2a2929;
+    letter-spacing: 1px;
+    margin: 44px 0 24px;
+    padding: 8px 0;
+    text-align: center;
+    width: 100%
+}
+
+.btn:hover {
+    border: 2px solid #fd8550;
+    background: transparent;
+    color: #fd8550;
+}
+
+.card {
+    background: #F2F6FF !important;
+}
+
+li {
+    list-style: square;
+}
